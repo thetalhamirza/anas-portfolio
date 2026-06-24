@@ -586,6 +586,8 @@ ul { list-style: none; }
   .video-vertical {
     max-height: 460px;
     min-width: 240px;
+    height: 460px;
+    width: calc(460px * 9 / 16);
   }
 }
 
@@ -657,6 +659,8 @@ ul { list-style: none; }
   .works-all-grid .video-vertical {
     max-height: 420px;
     min-width: 200px;
+    height: 420px;
+    width: calc(420px * 9 / 16);
   }
 }
 
