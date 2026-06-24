@@ -68,27 +68,8 @@
     .works-all-grid .video-container.video-horizontal {
       width: 100%;
     }
-    .works-all-grid .video-container.video-vertical {
-      width: 304px;
-      max-width: 100%;
-      height: 540px;
-      flex: 0 0 304px;
-    }
-    .works-all-grid .video-container.video-vertical iframe {
-      width: 100%;
-      height: 100%;
-      object-fit: fill;
-    }
-    .works-all-grid .video-vertical {
-      height: 540px;
-      width: calc(540px * 9 / 16);
-      flex-shrink: 0;
-    }
-    .works-all-grid .video-vertical iframe {
-      object-fit: fill;
-      width: 100%;
-      height: 100%;
-    }
+
+
     .works-all-grid .video-horizontal {
       width: 100%;
     }
@@ -127,14 +108,7 @@
     .reveal { opacity: 0; transform: translateY(24px); transition: all 0.6s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
-    @media (max-width: 700px) {
-      .works-all-grid { grid-template-columns: 1fr; }
-      .works-all-grid .video-container.video-vertical {
-        height: 480px;
-        width: 270px;
-        flex: 0 0 270px;
-      }
-    }
+
   </style>
 </head>
 <body>
@@ -223,7 +197,7 @@
         <div class="works-section-title reveal">YouTube Shorts &amp; Reels</div>
         <p class="works-section-desc reveal">Quick, impactful vertical content — 9:16 format optimized for mobile and Shorts.</p>
 
-        <div class="works-all-grid">
+        <div class="work-row-vertical">
 
           <!-- S1 — Reviews Reel -->
           <div class="work-card reveal">
@@ -249,55 +223,57 @@
             </div>
           </div>
 
-          <!-- S3 — Minimal Editing -->
+          <!-- S3 — Reviews Reel -->
           <div class="work-card reveal">
             <div class="video-container video-vertical">
-              <iframe src="https://www.youtube.com/embed/Puwrz4b2Gc4?autoplay=0&rel=0" title="Minimal Editing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/Puwrz4b2Gc4?autoplay=0&rel=0" title="Reviews Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="work-meta">
               <p class="work-number">03</p>
-              <h3 class="work-title">Minimal Editing</h3>
-              <p class="work-desc">Less is more — clean, minimal edits that let the visuals speak for themselves.</p>
+              <h3 class="work-title">Reviews Reel</h3>
+              <p class="work-desc">Quick-hit reviews — honest takes on gear, tools, and techniques in 60 seconds.</p>
             </div>
           </div>
 
-          <!-- S4 — Minimal Editing -->
+          <!-- S4 — Code With SK -->
           <div class="work-card reveal">
             <div class="video-container video-vertical">
-              <iframe src="https://www.youtube.com/embed/XI1FGnscoVo?autoplay=0&rel=0" title="Minimal Editing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/XI1FGnghscoVo?autoplay=0&rel=0" title="Code With SK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="work-meta">
               <p class="work-number">04</p>
-              <h3 class="work-title">Minimal Editing</h3>
-              <p class="work-desc">Less is more — clean, minimal edits that let the visuals speak for themselves.</p>
+              <h3 class="work-title">Code With SK</h3>
+              <p class="work-desc">Freelance work — edited and produced content for CS with SK's computer science channel.</p>
             </div>
           </div>
 
-          <!-- S5 — Myself -->
+          <!-- S5 — Code With SK -->
           <div class="work-card reveal">
             <div class="video-container video-vertical">
-              <iframe src="https://www.youtube.com/embed/gh7UGdHPQJs?autoplay=0&rel=0" title="The Video I Made for Myself" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/gh7UGdHPQJs?autoplay=0&rel=0" title="Code With SK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="work-meta">
               <p class="work-number">05</p>
-              <h3 class="work-title">The Video I Made for Myself</h3>
-              <p class="work-desc">A personal project — my own story told through my lens and style.</p>
+              <h3 class="work-title">Code With SK</h3>
+              <p class="work-desc">Freelance work — edited and produced content for CS with SK's computer science channel.</p>
             </div>
           </div>
 
-          <!-- S6 — Myself -->
+          <!-- S6 — Code With SK -->
           <div class="work-card reveal">
             <div class="video-container video-vertical">
-              <iframe src="https://www.youtube.com/embed/VKpuMI4sp3k?autoplay=0&rel=0" title="The Video I Made for Myself" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/VKpuMI4sp3k?autoplay=0&rel=0" title="Code With SK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="work-meta">
               <p class="work-number">06</p>
-              <h3 class="work-title">The Video I Made for Myself</h3>
-              <p class="work-desc">A personal project — my own story told through my lens and style.</p>
+              <h3 class="work-title">Code With SK</h3>
+              <p class="work-desc">Freelance work — edited and produced content for CS with SK's computer science channel.</p>
             </div>
           </div>
 
         </div>
+
+      </div>
       </div>
 
       <div class="works-back-wrapper reveal">
