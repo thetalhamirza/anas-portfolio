@@ -23,14 +23,6 @@ This is a static site built with vanilla HTML, CSS, and JavaScript — no framew
 - **Videos:** YouTube embeds
 - **Contact:** WhatsApp direct chat
 
-## Local Preview
-
-```bash
-python3 -m http.server 8080
-```
-
-Then open [http://localhost:8080](http://localhost:8080).
-
 ---
 
 Want to work together? [Chat with me on WhatsApp](https://wa.me/923122842977?text=Hi%20Anas%2C%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project.)
